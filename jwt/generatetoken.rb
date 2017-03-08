@@ -15,5 +15,4 @@ def payload data
     }
 }
 end
-
 JWT.encode payload(data), pwd, 'HS256'
